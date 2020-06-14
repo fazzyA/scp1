@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import { CartContext } from './CartContext';
-
+var uniqid = require('uniqid');
 export const Tshirt = (props) => {
   const [cart, setCart] = useContext(CartContext);
 
   const addToCart = () => {
-    const tshirt = { name: props.name, price: props.price };
+    const tshirt = { name: props.name, price: props.price,id:uniqid() };
     setCart(currentState => [...currentState, tshirt]);
   }
   return (

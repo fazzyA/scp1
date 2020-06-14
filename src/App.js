@@ -4,12 +4,15 @@ import { TshirtList } from './TshirtList';
 import { Cart } from './Cart';
 import { CartProvider } from './CartContext';
 import Footer from './Footer';
+import Header from './Header';
+import CartItem from './CartItem';
 
 const App = () => {
     return (
       <CartProvider>
         <div>
-          <h1>Shopping Cart App</h1>
+          <Header />
+          <CartItem />
           <Cart />
           <TshirtList />
           <Footer />
