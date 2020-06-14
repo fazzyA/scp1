@@ -7,7 +7,7 @@ import {CartContext} from './CartContext';
     let newCart=cart.filter((item)=>item.id!=id);
     console.log(newCart)
     setCart([...newCart])
-    }
+    } //
   return (
     <div className='cart-box'>
       <h3>Your Items</h3>
