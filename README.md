@@ -1,5 +1,4 @@
-# react-context-tutorial
-youtube tutorial
+# react-context-api for shopping cart
 
 # usage
 `npm install`
