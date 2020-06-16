@@ -1,21 +1,21 @@
 import React from 'react'
 import './style.css';
-import { TshirtList } from './TshirtList';
-import { Cart } from './Cart';
 import { CartProvider } from './CartContext';
-import Footer from './Footer';
 import Header from './Header';
-import CartItem from './CartItem';
+import Nav from './Nav'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 const App = () => {
     return (
       <CartProvider>
         <div>
           <Header />
-          <CartItem />
-          <Cart />
-          <TshirtList />
-          <Footer />
+          <Nav />
         </div>
       </CartProvider>
     )

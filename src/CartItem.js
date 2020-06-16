@@ -15,7 +15,7 @@ import {CartContext} from './CartContext';
           <tbody>
       {cart.map((item,index)=>{
           return (
-          <tr key={item.id}>
+          <tr key={item.id} className='item-row'>
               <td>items in cart : {item.name}</td>
               <td><button onClick={()=>{delItem(item.id)}}>x</button></td>
               </tr>)
