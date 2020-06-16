@@ -19,11 +19,13 @@ text-align: center;}
 }
 .cart-box{
   margin: 10px 10px;
+  color: rgb(134, 140, 148);
   width: 300px;
   padding: 0.9em !important;
-  font-weight: 400 !important;
+  font-weight: 600 !important;
   font-size: 16px !important;
   height: auto;
+  border: 2px solid #f2f2f2;
 
 }
 .tshirt-box{
@@ -41,13 +43,14 @@ text-align: center;
 }
 .btn {
   display: inline-block;
-  padding: 0.35em 1.3em;
+  padding: 15px 22px;
   margin:0 0.4em 0.4em 0;
   border-radius:2em;
   box-sizing: border-box;
   text-decoration: none;
   font-family:'Roboto',sans-serif;
   font-weight:300;
+  font-size: 16px;
   color:#FFFFFF;
   background-color:#4eb5f1;
   text-align: center;
@@ -95,4 +98,7 @@ text-align: center;
   }
   thead{
     border-bottom: 3px solid grey;
+  }
+  .product-pic{
+    width: 350px;
   }
