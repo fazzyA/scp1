@@ -10,22 +10,23 @@ import Footer from './Footer';
 import { TshirtList } from './TshirtList';
 import { Cart } from './Cart';
 
-import App from './App'
 
 export default function Nav() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/cart">Cart</Link>
-            </li>
-          </ul>
-        </nav>
+          <div>
+            <nav>
+            <ul>
+                <li>
+                <Link to="/">Home</Link>
+                </li>
+                <li>
+                <Link to="/cart">Cart</Link>
+                </li>
+            </ul>
+            </nav>
+        </div>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}

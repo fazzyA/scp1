@@ -1,9 +1,11 @@
 import React from 'react'
+import logo from './sos.png'
 
 const Header = () => {
     return (
         <div className='header'>
-          <h1>Shopping Cart App</h1>
+          <div className='header-div'><h1><img src={logo} alt='tshirt shop' className='logo' /></h1></div>
+          {/* <div className='header-div'><h1>Shopping Cart App</h1></div> */}
         </div>
     )
   }
